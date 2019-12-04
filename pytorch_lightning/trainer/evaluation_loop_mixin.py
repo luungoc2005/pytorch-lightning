@@ -125,7 +125,7 @@ In this second case, the options you pass to trainer will be used when running
 
 import torch
 import sys
-import tqdm
+import tqdm.auto as tqdm
 
 from pytorch_lightning.utilities.debugging import MisconfigurationException
 

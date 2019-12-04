@@ -10,7 +10,7 @@ import logging
 import torch
 import torch.distributed as dist
 import torch.multiprocessing as mp
-import tqdm
+import tqdm.auto as tqdm
 from torch.optim.optimizer import Optimizer
 
 from pytorch_lightning.trainer.amp_mixin import TrainerAMPMixin
